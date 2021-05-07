@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GifGridItem /> tests should show <GifGridItem /> correctly 1`] = `
+<div
+  className="card animate__fadeIn"
+>
+  <img
+    alt="Hola"
+    loading="lazy"
+    src="https://www.google.com"
+  />
+  <p>
+    Hola
+  </p>
+</div>
+`;

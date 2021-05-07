@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import AddCategory from '../components/add-category/add-category';
 import GifGrid from '../components/gif-grid/gif-grid';
 
-const GifExpertApp = (props) => {
-  const [categories, setCategories] = useState(['Dragon Ball']);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
@@ -24,5 +24,5 @@ const GifExpertApp = (props) => {
   );
 };
 
-export default GifExpertApp
+export default GifExpertApp;
 
